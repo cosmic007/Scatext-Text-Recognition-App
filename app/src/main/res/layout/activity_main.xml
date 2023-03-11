@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/myLayout"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/idTVHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="SCATEXT"
+        android:textAlignment="center"
+        android:textColor="@color/Purple"
+        android:textSize="55dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/BtnCapture"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVHead"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@raw/hobostd"
+        android:text="Scan"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@color/Purple" />
+
+    <Button
+        android:id="@+id/BtnTTS"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BtnCapture"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ripple_effect"
+        android:fontFamily="@raw/hobostd"
+        android:text="Speak"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@color/Purple" />
+
+
+    <Button
+        android:id="@+id/Btnfeed"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/ripple_effect"
+        android:drawableLeft="@drawable/feed"
+        android:fontFamily="@raw/hobostd"
+        android:text="Feedback"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@color/Purple" />
+
+
+</RelativeLayout>
